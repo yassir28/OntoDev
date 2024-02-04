@@ -10,4 +10,4 @@ by using Bioportal's Api (refer to reuse_ontologies file), I produced a excel fi
 ## OWL file (OWL and RDF)
 I went through the production of the ontology using sketches I produced, which are based on definitions close to invasion biology context. This requires consultence of exprets which I havent conducted cos of scale of project (academic only). I instead based it on other onotlogies (other than INBIO because I wanted to reproduce without using that ontology) and common sense.
 
-I used the sketches (refer to them in prentation in folder Report&presentation) to create the OWL file. (refer to .owx file)
+I used the sketches (refer to them in prentation in folder Report&presentation) to create the OWL file using Protégé framework. (refer to .owx file)

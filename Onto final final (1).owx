@@ -1,0 +1,561 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/boras/ontologies/2024/0/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/boras/ontologies/2024/0/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/boras/ontologies/2024/0/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Biodiversity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biological_phenomenon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biotic_resistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Closely_related_species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compound_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conceptual_entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continental_areas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defense_mechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distributed_ecosystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disturbance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecological_impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecosystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enemy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enemy_release"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exotic_range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generalist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genetic_change"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geographic_locations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Growth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Invasion_success"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Islands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Life_cycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material_entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measurement_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Native_range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-native_species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organism_characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phenotypic_plasticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propagule_pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality_of_ecological_community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Release"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Species_richness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Survival_impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxonomic_rank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Undistributed_ecosystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ecosystem_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#native_species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#species"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Biodiversity"/>
+        <Class IRI="#ecosystem_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_phenomenon"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biotic_resistance"/>
+        <Class IRI="#Biodiversity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Closely_related_species"/>
+        <Class IRI="#species"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compound_property"/>
+        <Class IRI="#Trait"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Continental_areas"/>
+        <Class IRI="#Geographic_locations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defense_mechanism"/>
+        <Class IRI="#Compound_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distributed_ecosystem"/>
+        <Class IRI="#Ecosystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disturbance"/>
+        <Class IRI="#Conceptual_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecological_impact"/>
+        <Class IRI="#Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecosystem"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enemy"/>
+        <Class IRI="#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enemy_release"/>
+        <Class IRI="#Release"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energy"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exotic_range"/>
+        <Class IRI="#Range"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generalist"/>
+        <Class IRI="#Enemy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genetic_change"/>
+        <Class IRI="#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geographic_locations"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Growth"/>
+        <Class IRI="#Biological_phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impact"/>
+        <Class IRI="#Quality_of_ecological_community"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Invasion_success"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Islands"/>
+        <Class IRI="#Geographic_locations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Life_cycle"/>
+        <Class IRI="#Growth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measurement_type"/>
+        <Class IRI="#Conceptual_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Native_range"/>
+        <Class IRI="#Range"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-native_species"/>
+        <Class IRI="#species"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organism_characteristic"/>
+        <Class IRI="#Trait"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phenotypic_plasticity"/>
+        <Class IRI="#Organism_characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propagule_pressure"/>
+        <Class IRI="#Conceptual_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality_of_ecological_community"/>
+        <Class IRI="#Measurement_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Range"/>
+        <Class IRI="#Conceptual_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Release"/>
+        <Class IRI="#Biological_phenomenon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource"/>
+        <Class IRI="#Material_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialist"/>
+        <Class IRI="#Enemy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Species_richness"/>
+        <Class IRI="#Quality_of_ecological_community"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Survival_impact"/>
+        <Class IRI="#Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxonomic_rank"/>
+        <Class IRI="#Conceptual_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trait"/>
+        <Class IRI="#Conceptual_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Undistributed_ecosystem"/>
+        <Class IRI="#Ecosystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ecosystem_property"/>
+        <Class IRI="#Trait"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#native_species"/>
+        <Class IRI="#species"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#species"/>
+        <Class IRI="#Taxonomic_rank"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biodiversity</IRI>
+        <Literal>Biodiversity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biological_phenomenon</IRI>
+        <Literal>Biological phenomenon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biotic_resistance</IRI>
+        <Literal>Biotic resistance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Change</IRI>
+        <Literal>Change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Closely_related_species</IRI>
+        <Literal>Closely related species</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Compound_property</IRI>
+        <Literal>Comppound property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Conceptual_entity</IRI>
+        <Literal>Conceptual entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Continental_areas</IRI>
+        <Literal>Continental areas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Defense_mechanism</IRI>
+        <Literal>Defense mechanism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Distributed_ecosystem</IRI>
+        <Literal>Distributed ecosystem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Disturbance</IRI>
+        <Literal>Disturbance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ecological_impact</IRI>
+        <Literal>Change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ecosystem</IRI>
+        <Literal>Ecosystem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enemy</IRI>
+        <Literal>Enemy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Enemy_release</IRI>
+        <Literal>Enemy release</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Energy</IRI>
+        <Literal>Energy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Environment</IRI>
+        <Literal>Environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Exotic_range</IRI>
+        <Literal>Exotic range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Generalist</IRI>
+        <Literal>Generalist enemy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genetic_change</IRI>
+        <Literal>Genetic change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geographic_locations</IRI>
+        <Literal>Geographic locations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Growth</IRI>
+        <Literal>Growth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Impact</IRI>
+        <Literal>Impact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Invasion_success</IRI>
+        <Literal>Invasion success</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Islands</IRI>
+        <Literal>Islands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Life_cycle</IRI>
+        <Literal>Life cycle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Material_entity</IRI>
+        <Literal>Material entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Measurement_type</IRI>
+        <Literal>Measurement type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Native_range</IRI>
+        <Literal>Native range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Non-native_species</IRI>
+        <Literal>Non-native species</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organism_characteristic</IRI>
+        <Literal>Organism characteristic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Phenotypic_plasticity</IRI>
+        <Literal>Phenotypic plasticity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Process</IRI>
+        <Literal>Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quality_of_ecological_community</IRI>
+        <Literal>Quality of ecological community</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Release</IRI>
+        <Literal>Release</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Resource</IRI>
+        <Literal>Resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Role</IRI>
+        <Literal>Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Specialist</IRI>
+        <Literal>Specialist enemy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Species_richness</IRI>
+        <Literal>Species richness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Survival_impact</IRI>
+        <Literal>Survival impact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Taxonomic_rank</IRI>
+        <Literal>Taxonomic rank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Trait</IRI>
+        <Literal>Trait</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Undistributed_ecosystem</IRI>
+        <Literal>Undistributed ecosystem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ecosystem_property</IRI>
+        <Literal>Ecosystem property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#native_species</IRI>
+        <Literal>Native species</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
